@@ -1,0 +1,8 @@
+providers:
+  - LaravelGtm\RouteHits\RouteHitsServiceProvider
+env:
+  - APP_ENV=local
+  - DB_CONNECTION=sqlite
+  - DB_DATABASE=/tmp/route-hits.sqlite
+  - QUEUE_CONNECTION=sync
+  - ROUTE_HITS_APP=billing
